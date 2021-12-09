@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+   <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+
+<div class="box-login">
+<div class="inscription">
+    <h2>INSCRIPTION</h2>
+</div>
+    
+        <div class="form-groupe">
+            <label for="name">Nom Prénom</label>
+            <input type="text" id="name" placeholder="Nom Prénom" maxlength="50" required>
+            <img src="ressources/check.svg" alt="icone de validation" class="icone-verif">
+            <span class="message-alerte">Rentrez un nom et un prénom.</span>
+        </div>
+        
+        <div class="form-groupe">
+        <label for=adresse>Adresse</label>
+          <input id=adresse name=adresse placeholder="Adresse"required>
+          <img src="ressources/check.svg" alt="icone de validation" class="icone-verif">
+            <span class="message-alerte">Rentrez une adresse valide.</span>
+        </div>
+        <div class="form-groupe">
+          <label for=codepostal>Code postal</label>
+          <input id=codepostal name=codepostal type=text placeholder="Code postal"required>
+          <img src="ressources/check.svg" alt="icone de validation" class="icone-verif">
+            <span class="message-alerte">Rentrez code postal valide.</span>
+          </div>
+          <div class="form-groupe">
+          <label for=pays>Pays</label>
+          <input id=pays name=pays type=text placeholder="Pays" required>
+          <img src="ressources/check.svg" alt="icone de validation" class="icone-verif">
+            <span class="message-alerte">Rentrez un pays valide.</span>
+          </div>
+          <div class="form-groupe">
+            <label for=number>Numéro de téléphone</label>
+            <input id=numtel name=numtel type=text placeholder="Numéro de téléphone" required>
+            <img src="ressources/check.svg" alt="icone de validation" class="icone-verif">
+              <span class="message-alerte">Rentrez un numéro de téléphone valide.</span>
+            </div>
+        <div class="form-groupe">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Exemple@exemple.fr" required>
+            <img src="ressources/check.svg" alt="icone de validation" class="icone-verif">
+            <span class="message-alerte">Rentrez un email valide.</span>
+        </div>
+        <div class="form-groupe">
+            <label for="numberCb">Numéro de carte bancaire</label>
+            <input type="numberCb" id="numberCb" placeholder="**************" required>
+            <img src="ressources/check.svg" alt="icone de validation" class="icone-verif">
+            <span class="message-alerte">Rentrez des numéros de carte bancaire valide.</span>
+    
+        </div>
+
+        <button class="confirme">Confirmer</button>
+    
+
+</div>
+    <script src="form.js"></script>
+</body>
+</html>
